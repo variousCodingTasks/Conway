@@ -6,6 +6,7 @@ package exercise152;
  */
 public class CellThread extends Thread{
     
+    /*the wait time between consecutive generations*/
     public static final int SLEEP_TIME = 1000;
     
     private final int i;
